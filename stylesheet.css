@@ -17,7 +17,12 @@ display:block;
 display:inline-block;
 width:40%;
 }
+#main{
+  display:inline-block;
+  width:40%;
+}
+
 iFrame{
   display:inline-block;
   width:40%;
-  
+}  
