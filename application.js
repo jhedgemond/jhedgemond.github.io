@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  $("#submit").click(function(){
-    var name=$("input[name=first_name]").val();
+  $("button").click(function(){
+    var name=$("input[name=firstname]").val();
     var comment=$("input[name=comment]").val();
-    append(comment);
-  })
+    $("#Box").append("<b><p>"+name+"</p></b>");
+    $("#Box").append("<p>"+comment+"</p>");
+  });
 })
